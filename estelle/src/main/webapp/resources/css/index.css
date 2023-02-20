@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+#main_content {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.main_title {
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.main_title div {
+	padding: 30px 0;
+}
+
+.main_section {
+	height: 680px;
+}
+
+.main_section>ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.thumbnail {
+	position: relative;
+	width: 180px;
+	height: 210px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.description {
+	width: 180px;
+	height: 90px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+.description .name {
+	margin: 5px 0;
+}
+
+.description .price {
+	margin-bottom: 5px;
+}
+
+.description .price>li {
+	display: inline-block;
+}
+
+.description .color {
+	height: 10px;
+	margin-top: 5px;
+}
+
+.description .color>span {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #d2d2d2;
+	box-sizing: border-box;
+}
+
+.description .color>span:first-child {
+	background-color: #000;
+}
+
+.description .color>span:last-child {
+	background-color: #fffff0;
+}
+
+.sale_txt {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #3a1150;
+	color: #fff;
+	font-size: 10px;
+	border-radius: 0 0 0 5px;
+}
+
+.box {
+	width: 200px;
+	height: 300px;
+}
+
+.prdImg {
+	width: 180px;
+	height: 210px;
+}
+
+.prdImg>a {
+	display: block;
+	height: 210px;
+}
+
+.prd_more ul li .likeButton>button {
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background-color: #fff;
+	font-size: 10px;
+}
+
+.prd_more ul li .likeButton>button>img {
+	filter: brightness(0);
+	width: 10px;
+	vertical-align: middle;
+	line-height: 10px;
+}
+
+.prd_more ul li .likeButton>button>span {
+	vertical-align: middle;
+	line-height: 10px;
+}
+
+.more_wrap {
+	text-align: center;
+	height: 30px;
+	margin: 10px 0;
+}
+
+.more_wrap .more_btn {
+	display: inline-block;
+	border: 1px solid #454444;
+	padding: 0 30px 0 35px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.more_wrap .more_btn>a>img {
+	vertical-align: middle;
+}
+
+#gallery_wrap {
+	margin: 0 auto;
+	width: 350px;
+}
+
+.collection_title {
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.collection_title div {
+	padding: 30px 0;
+}
+
+.collection_section {
+	height: 550px;
+}
+
+#advertisement {
+	width: 1440px;
+	height: 150px;
+	margin: 20px 0;
+}
+
+#advertisement ul li:first-child {
+	width: 50%;;
+	float: left;
+	margin: 20px 0;
+}
+
+#advertisement ul li:last-child {
+	width: 50%;;
+	float: right;
+	margin: 20px 0;
+}
+
+.keyword_title {
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.keyword_title div {
+	padding: 30px 0;
+}
+
+.keyword_section {
+	height: 300px;
+}
+
+.keyword_section>ul {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.keyword_section>ul>li>a {
+	display: block;
+	height: 250px;
+	margin: 25px 0;
+	position: relative;
+}
+
+.style_title {
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.style_title div {
+	padding: 30px 0;
+}
+
+.style_section {
+	height: 200px;
+}
+
+.style_section>ul {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin: 10px 0;
+}
+
+.style_section>ul>li>a {
+	display: block;
+	height: 150px;
+}
+
+.page_section>ul {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.page_section>ul>li, .page_section>ul>li>a>img {
+	height: 21px;
+}
+
+.footer_section {
+	background-color: #2E2B32;
+	text-align: center;
+}
+
+.hashtag {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(46, 44, 50, 0.4);
+	color: #fff;
+	font-size: 15px;
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+.keyword_section>ul>li:hover>a>img {
+	border-radius: 30px 0 30px 0;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.keyword_section>ul>li:not(:hover)>a>img {
+	transition: 0.5s ease-out;
+}
+
+.keyword_section>ul>li:hover>a>.hashtag {
+	background: rgba(46, 44, 50, 1);
+}
